@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script src="./latte_three.js"></script>
+</head>
+	<body onload="Start();">
+	  <div id="canvas-frame"></div>
+	</body>
+<script>
+				/**
+				var WebGLRenderer = latte.require("latte_three/renderers/webGLRenderer")
+				function initThree() {
+            width = document.getElementById('canvas-frame').clientWidth;
+            height = document.getElementById('canvas-frame').clientHeight;
+            renderer = new WebGLRenderer({
+                antialias : true
+            });
+            renderer.setSize(width, height);
+            document.getElementById('canvas-frame').appendChild(renderer.domElement);
+            //renderer.setClearColorHex(0xFFFFFF, 1.0);
+        }
+			var Start = function() {
+				initThree();
+			}
+		*/
+		var Scene = require("latte_three/scenes/scene")
+		var scene = new Scene();
+		var PerspectiveCamera = require("latte_three/cameras/perspectiveCamera")
+		var camera = new PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+</script>
+</html>
