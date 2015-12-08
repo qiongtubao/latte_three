@@ -1,0 +1,20 @@
+{
+	"paths":["lib/"],
+	"outdir": "doc/",
+	"project": {
+		"name": "Project",
+		"description":"<h2>latte_three</h2><p>Javascript Document.</p>",
+		"version": "0.0.1",
+		"url": "https://github.com/qiongtubao/latte_three",
+		"logo":"",
+		"navs":[{
+			"name":"Home",
+			"url": "https://github.com/qiongtubao/latte_three"
+		}]
+	},
+	"demo": {
+		"link": ["http://code.jquery.com/jquery-1.11.0.min.js"],
+		"paths": [],
+		"autoComplete": true
+	}
+}
